@@ -1049,7 +1049,7 @@
 
         // Handle Form Submission
         function handleFormSubmit(e) {
-            e.preventDefault();
+            // e.preventDefault();
             
             // Get form values
             const name = document.getElementById('name').value;
@@ -1062,7 +1062,7 @@
             alert(`Thank you ${name}! Your message has been sent. I'll get back to you soon at ${email}.`);
             
             // Reset form
-            contactForm.reset();
+           // contactForm.reset();
             
             // Add a little animation to the submit button
             const submitBtn = document.querySelector('.submit-btn');
@@ -1124,3 +1124,4 @@
 </body>
 
 </html>
+
